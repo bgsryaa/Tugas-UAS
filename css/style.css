@@ -1,0 +1,63 @@
+
+.hero-section {
+    background: linear-gradient(rgba(231, 238, 39, 0.7), rgba(0, 0, 0, 0.7)),
+                url('/api/placeholder/1920/1080') center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+}
+
+.nav-link {
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #007bff;
+}
+
+.social-icons a {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007bff;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.skill-bar {
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+.gallery-item {
+    transition: transform 0.3s;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info {
+    background: #f0edf4;
+    padding: 2rem;
+    border-radius: 10px;
+}
